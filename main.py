@@ -5,6 +5,12 @@
 # print(type(obj.decrypt(a)))
 
 
-import os 
+# import os 
 
-print(os.getenv("APPDATA"))
+# print(os.getenv("APPDATA"))
+
+
+from PWM import cli
+
+if __name__ == "__main__":
+    cli.cli()
